@@ -1,10 +1,10 @@
 import Header from "@/components/HeaderComponent/header"
-import Settings from "@/components/SettingsComponent/settings"
+import MainPage from "@/components/MainPageComponent/mainPage"
 export default function Home() {
   return (
     <>
       <Header />
-      <Settings />
+      <MainPage />
     </>
   )
 }
