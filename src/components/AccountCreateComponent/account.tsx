@@ -4,7 +4,7 @@ export default function Account() {
     <div className="grid place-items-center mt-2">
       <div className="flex items-center justify-center flex-col w-[50vh] h-[80vh] text-[#1F2B3D] text-center border-6 rounded-[20px] border-[#1F2B3D] border-solid mt-10 ">
       <form action="post" className="flex flex-col p-0 m-0 ">
-        <label htmlFor="email" className="pb-2 pt-2">USERNAME</label>
+        <label htmlFor="username" className="pb-2 pt-2">USERNAME</label>
         <input type="text" id="username" name="username" className="border-2 rounded-[20px] border-[#1F2B3D] border-solid pb-2 "/>
         <label htmlFor="email" className="pb-2 pt-2">EMAIL</label>
         <input type="email" id="email" name="email" className="border-2 rounded-[20px] border-[#1F2B3D] border-solid pb-2 "/>
