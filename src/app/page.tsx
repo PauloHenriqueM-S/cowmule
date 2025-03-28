@@ -1,10 +1,11 @@
 import Header from "@/components/HeaderComponent/header";
-import MainPage from "@/components/MainPageComponent/mainPage";
+import CreateProject from "@/components/CreateProjectComponent/createProject";
+
 export default function Home() {
   return (
     <>
       <Header />
-      <MainPage />
+      <CreateProject />
     </>
   );
 }
